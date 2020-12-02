@@ -1,3 +1,6 @@
+#![feature(test)]
+extern crate test;
+
 use std::fs;
 
 fn parse_numbers(num_str: &str) -> Vec<i64> {
@@ -56,5 +59,10 @@ mod tests {
     #[test]
     fn test_part_two() {
         assert_eq!(part_two("1721\n979\n366\n299\n675\n1456"), 241861950);
+    }
+
+    #[bench]
+    fn bench_part_two(b: &mut test::Bencher) {
+        b.iter(|| part_two("1721\n979\n366\n299\n675\n1456"));
     }
 }
