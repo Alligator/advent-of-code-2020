@@ -1,5 +1,5 @@
 [package]
-name = "day1"
+name = "aoc2020"
 version = "0.1.0"
 authors = ["alligator <enemy.forest.brigade@gmail.com>"]
 edition = "2018"
