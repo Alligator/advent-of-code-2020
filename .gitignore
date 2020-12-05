@@ -1,5 +1,6 @@
 **/.vscode
 **/target
+**/*.swp
 
 
 # Added by cargo
