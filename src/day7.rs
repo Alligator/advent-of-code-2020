@@ -106,7 +106,7 @@ pub fn part_two(s: &str) -> i64 {
 mod test {
   use super::*;
 
-  static input: &str = "light red bags contain 1 bright white bag, 2 muted yellow bags.
+  static INPUT: &str = "light red bags contain 1 bright white bag, 2 muted yellow bags.
 dark orange bags contain 3 bright white bags, 4 muted yellow bags.
 bright white bags contain 1 shiny gold bag.
 muted yellow bags contain 2 shiny gold bags, 9 faded blue bags.
@@ -118,11 +118,11 @@ dotted black bags contain no other bags.";
 
   #[test]
   fn test_part_one() {
-    assert_eq!(part_one(input), 4);
+    assert_eq!(part_one(INPUT), 4);
   }
 
   #[test]
   fn test_part_two() {
-    assert_eq!(part_two(input), 32);
+    assert_eq!(part_two(INPUT), 32);
   }
 }
