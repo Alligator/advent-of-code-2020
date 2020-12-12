@@ -1,9 +1,9 @@
 use std::fs;
 
-mod day9;
+mod day10;
 
 fn main() {
-    let input = fs::read_to_string("inputs/day9.txt").unwrap();
-    println!("part 1: {0}", day9::part_one(&input, 25));
-    println!("part 2: {0}", day9::part_two(&input, 25));
+    let input = fs::read_to_string("inputs/day10.txt").unwrap();
+    println!("part 1: {0}", day10::part_one(&input));
+    println!("part 2: {0}", day10::part_two(&input));
 }
