@@ -46,8 +46,6 @@ pub fn part_two(s: &str) -> i64 {
 
     index += 1;
   }
-  // dbg!(&combs);
-  // combs.iter().fold(1, |acc, x| acc * x)
   count
 }
 
