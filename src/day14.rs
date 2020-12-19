@@ -99,7 +99,7 @@ pub fn part_two(s: &str) -> u64 {
       //    2 |     10 |          1000
       //    3 |     11 |          1010
       //
-      //    i bit 0 -> floating bit 0
+      //    i bit 0 -> floating bit 1
       //    i bit 1 -> floating bit 3
 
       while i != 0 {
